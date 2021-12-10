@@ -1,8 +1,4 @@
 #include "Graph.h"
-
-
-
-
 Graph::Graph() {
     
     adjList = HashTable<string, list<Edge>>();
